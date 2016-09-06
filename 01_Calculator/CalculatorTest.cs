@@ -54,14 +54,19 @@ namespace _01_Calculator
         public void Factorial()
         {
             //# http://en.wikipedia.org/wiki/Factorial
+            
             //  it "computes the factorial of 0"
             Assert.AreEqual(1, Calculator.Factorial(0));
+
             //  it "computes the factorial of 1"
             Assert.AreEqual(1, Calculator.Factorial(1));
+            
             //  it "computes the factorial of 2"
             Assert.AreEqual(2, Calculator.Factorial(2));
+            
             //  it "computes the factorial of 5"
             Assert.AreEqual(120, Calculator.Factorial(5));
+            
             //  it "computes the factorial of 10"
             Assert.AreEqual(3628800, Calculator.Factorial(10));
         }
