@@ -22,7 +22,7 @@ namespace _01_Calculator
         public void Sum()
         {
             //Arrange
-            int[] numbers = new int[] { };
+            int[] numbers = new int[2];
             Assert.AreEqual(0, Calculator.Sum(numbers));
 
             numbers[0] = 7;
@@ -34,10 +34,12 @@ namespace _01_Calculator
 
         }
         [TestMethod]
-        public void Multiply()
-        {
+        public void Multiply() {
+
             //It multiplies two numbers
             //It multiplies several numbers
+            int[] numbers = new int[2];
+
             throw new NotImplementedException();
         }
         [TestMethod]
