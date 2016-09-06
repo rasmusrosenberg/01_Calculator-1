@@ -76,5 +76,12 @@ namespace _01_Calculator
         {
             Assert.AreEqual(216, Calculator.Power(6, 3));
         }
+        
+        [TestMethod]
+        public void TestFraRasmus()
+        {
+            // Noget kode
+        }
+        
     }
 }
