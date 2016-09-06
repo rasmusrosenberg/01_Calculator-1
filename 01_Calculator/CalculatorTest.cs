@@ -70,5 +70,11 @@ namespace _01_Calculator
             //  it "computes the factorial of 10"
             Assert.AreEqual(3628800, Calculator.Factorial(10));
         }
+
+        [TestMethod]
+        public void LasseTest()
+        {
+            Assert.AreEqual(216, Calculator.Power(6, 3));
+        }
     }
 }
