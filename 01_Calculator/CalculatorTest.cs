@@ -80,7 +80,14 @@ namespace _01_Calculator
         [TestMethod]
         public void TestFraRasmus()
         {
-            // Noget kode
+            String[] firstArray = {"Lorem", "Ipsum"};
+            String[] secondArray = {"Dolor", "Sit", "Amet"};
+
+            Assert.AreEqual(
+                new String[] { "Lorem", "Ipsum", "Dolor", "Sit", "Amet" },
+                Calculator.MergeArrays(firstArray, secondArray)
+            );
+
         }
         
     }
